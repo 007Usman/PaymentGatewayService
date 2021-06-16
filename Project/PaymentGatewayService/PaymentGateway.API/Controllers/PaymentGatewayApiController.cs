@@ -109,8 +109,8 @@ namespace PaymentGateway.API.Controllers
 			_logger.LogInformation($"Checking {nameof(Transaction)} in the database against: {id}");
 
 			var transactionId = await _transactionRepository.GetByIdAsync(id);
-			/*if (transactionId is null)
-				return NotFound("No Record found");*/
+			if (transactionId is null)
+				return NotFound("No Record found");
 
 			var card = await _bankCardRepository.GetByIdAsync(transactionId.BankCardId);
 
