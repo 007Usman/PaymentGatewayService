@@ -1,0 +1,12 @@
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Core\bin\Release\net5.0\PaymentGatway.Core.deps.json
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Core\bin\Release\net5.0\PaymentGatway.Core.dll
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Core\bin\Release\net5.0\ref\PaymentGatway.Core.dll
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Core\bin\Release\net5.0\PaymentGatway.Core.pdb
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Core\obj\Release\net5.0\PaymentGatway.Core.csprojAssemblyReference.cache
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Core\obj\Release\net5.0\PaymentGatway.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Core\obj\Release\net5.0\PaymentGatway.Core.AssemblyInfoInputs.cache
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Core\obj\Release\net5.0\PaymentGatway.Core.AssemblyInfo.cs
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Core\obj\Release\net5.0\PaymentGatway.Core.csproj.CoreCompileInputs.cache
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Core\obj\Release\net5.0\PaymentGatway.Core.dll
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Core\obj\Release\net5.0\ref\PaymentGatway.Core.dll
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Core\obj\Release\net5.0\PaymentGatway.Core.pdb

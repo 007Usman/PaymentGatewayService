@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  PaymentGatewayService:
+    container_name: PaymentGateway.Service
+    image: paymentgatewayapi:1.0.0
+    build:
+      context: .
+      dockerfile: DockerfileMerchantApi
+    ports:
+      - "5001:443"
+
+  BnakService:
+    container_name: Bank.Service
+    image: paymentgatewayapi:1.0.0
+    build:
+      context: .
+      dockerfile: DockerfileBankApi
+    ports:
+      - "8080:443"

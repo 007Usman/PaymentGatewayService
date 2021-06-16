@@ -1,0 +1,3 @@
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\.vs\PaymentGatewayService\v16\lut\0\i\PaymentGatwayApiTests\Debug\net5.0\PaymentGatwayApiTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\.vs\PaymentGatewayService\v16\lut\0\i\PaymentGatwayApiTests\Debug\net5.0\PaymentGatwayApiTests.AssemblyInfoInputs.cache
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\.vs\PaymentGatewayService\v16\lut\0\i\PaymentGatwayApiTests\Debug\net5.0\PaymentGatwayApiTests.AssemblyInfo.cs

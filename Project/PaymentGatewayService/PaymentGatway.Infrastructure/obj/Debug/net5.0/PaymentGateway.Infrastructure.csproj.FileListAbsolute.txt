@@ -1,0 +1,36 @@
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Infrastructure\bin\Debug\net5.0\PaymentGateway.Infrastructure.deps.json
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Infrastructure\bin\Debug\net5.0\PaymentGateway.Infrastructure.runtimeconfig.json
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Infrastructure\bin\Debug\net5.0\PaymentGateway.Infrastructure.runtimeconfig.dev.json
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Infrastructure\bin\Debug\net5.0\PaymentGateway.Infrastructure.dll
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Infrastructure\bin\Debug\net5.0\ref\PaymentGateway.Infrastructure.dll
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Infrastructure\bin\Debug\net5.0\PaymentGateway.Infrastructure.pdb
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Infrastructure\bin\Debug\net5.0\PaymentGateway.Core.dll
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Infrastructure\bin\Debug\net5.0\PaymentGateway.Core.pdb
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\PaymentGateway.Infrastructure.csprojAssemblyReference.cache
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\PaymentGateway.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\PaymentGateway.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\PaymentGateway.Infrastructure.AssemblyInfo.cs
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\PaymentGateway.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\PaymentGateway.Infrastructure.csproj.CopyComplete
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\PaymentGateway.Infrastructure.dll
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\ref\PaymentGateway.Infrastructure.dll
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\PaymentGateway.Infrastructure.pdb
+C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\PaymentGateway.Infrastructure.genruntimeconfig.cache
+C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGatway.Infrastructure\bin\Debug\net5.0\PaymentGateway.Infrastructure.deps.json
+C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGatway.Infrastructure\bin\Debug\net5.0\PaymentGateway.Infrastructure.runtimeconfig.json
+C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGatway.Infrastructure\bin\Debug\net5.0\PaymentGateway.Infrastructure.runtimeconfig.dev.json
+C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGatway.Infrastructure\bin\Debug\net5.0\PaymentGateway.Infrastructure.dll
+C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGatway.Infrastructure\bin\Debug\net5.0\ref\PaymentGateway.Infrastructure.dll
+C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGatway.Infrastructure\bin\Debug\net5.0\PaymentGateway.Infrastructure.pdb
+C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGatway.Infrastructure\bin\Debug\net5.0\PaymentGateway.Core.dll
+C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGatway.Infrastructure\bin\Debug\net5.0\PaymentGateway.Core.pdb
+C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\PaymentGateway.Infrastructure.csprojAssemblyReference.cache
+C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\PaymentGateway.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\PaymentGateway.Infrastructure.AssemblyInfoInputs.cache
+C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\PaymentGateway.Infrastructure.AssemblyInfo.cs
+C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\PaymentGateway.Infrastructure.csproj.CoreCompileInputs.cache
+C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\PaymentGateway.Infrastructure.csproj.CopyComplete
+C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\PaymentGateway.Infrastructure.dll
+C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\ref\PaymentGateway.Infrastructure.dll
+C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\PaymentGateway.Infrastructure.pdb
+C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGatway.Infrastructure\obj\Debug\net5.0\PaymentGateway.Infrastructure.genruntimeconfig.cache
