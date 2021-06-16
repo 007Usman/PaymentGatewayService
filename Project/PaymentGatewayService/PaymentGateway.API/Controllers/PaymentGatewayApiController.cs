@@ -168,9 +168,9 @@ namespace PaymentGateway.API.Controllers
 		}
 
 		/// <summary>
-		/// Add Currencies
+		/// Add Bank
 		/// </summary>
-		/// <param name="currency"></param>
+		/// <param name="bank"></param>
 		/// <returns></returns>
 		[HttpPost]
 		[Route("AddBank")]
