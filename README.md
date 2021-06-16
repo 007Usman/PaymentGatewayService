@@ -15,7 +15,7 @@ There are five projects created to develop Payment Gateway Serivces
     This class library project contains common code:
     
     - Validations (Attribute validations)
-    - Modelw
+    - Models
     - Encryption (in-memory key generation solution whilst testing)
 
 ### PaymentGateway.Infrastructure
