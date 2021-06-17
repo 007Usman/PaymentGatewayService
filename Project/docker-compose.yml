@@ -1,20 +1,39 @@
 version: '3.4'
 
 services:
+  # Craetes Microsoft Sql Server 
+  SQLServer:
+    image: mcr.microsoft.com/azure-sql-edge:latest
+    environment: 
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=test_password23
+    ports: 
+      - "1433:1433"
+
+  # Creates Api Service for Payment Gateway
   PaymentGatewayService:
     container_name: PaymentGateway.Service
+    restart: always
     image: paymentgatewayapi:1.0.0
     build:
       context: .
       dockerfile: DockerfileMerchantApi
     ports:
-      - "5001:443"
+      - "8000:80"
+    environment: 
+      - ConnectionStrings:PaymentGatwayConnection="SQLServer;Database=Checkout;" 
+      - BankApiBaseAddress=BnakService
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on: 
+      - SQLServer
 
+  # Creates Api Service for Bank 
   BnakService:
     container_name: Bank.Service
-    image: paymentgatewayapi:1.0.0
+    restart: always
+    image: bankserviceapi:1.0.0
     build:
       context: .
       dockerfile: DockerfileBankApi
     ports:
-      - "8080:443"
+      - "8001:80"
