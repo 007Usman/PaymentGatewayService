@@ -6,6 +6,7 @@ There are five projects created to develop Payment Gateway Serivces
 
     - Provides Transaction Processing Api
     - Provides GetTransactionById Api
+    - Provides GetMerchantById Api (Also Finds transactions by MerchantId)
     - Provides AddMerchant Api
     - Provides AddCurrency Api
     - Provides AddBank Api
