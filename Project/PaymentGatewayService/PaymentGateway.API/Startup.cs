@@ -62,7 +62,7 @@ namespace PaymentGateway.API
 
 			services.AddDbContext<PaymentGatewayDBContext>(options =>
 				options.UseSqlServer(
-					Configuration.GetConnectionString("PaymentGatwayConnection"), s => s.MigrationsAssembly("PaymentGatway.Infrastructure")), ServiceLifetime.Singleton);
+					Configuration.GetConnectionString("PaymentGatewayConnection"), s => s.MigrationsAssembly("PaymentGateway.Infrastructure")), ServiceLifetime.Singleton);
 
 
 			services.AddTransient<IRepository<BankCard>, BankCardRepository>();

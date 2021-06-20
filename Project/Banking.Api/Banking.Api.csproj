@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PaymentGatewayService\PaymentGatway.Core\PaymentGateway.Core.csproj" />
+    <ProjectReference Include="..\PaymentGatewayService\PaymentGateway.Infrastructure\PaymentGateway.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

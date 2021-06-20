@@ -1,8 +1,0 @@
-C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatwayApiTests\obj\Debug\net5.0\PaymentGatwayApiTests.csprojAssemblyReference.cache
-C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatwayApiTests\obj\Debug\net5.0\PaymentGatwayApiTests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatwayApiTests\obj\Debug\net5.0\PaymentGatwayApiTests.AssemblyInfoInputs.cache
-C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatwayApiTests\obj\Debug\net5.0\PaymentGatwayApiTests.AssemblyInfo.cs
-C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatwayApiTests\obj\Debug\net5.0\PaymentGatwayApiTests.csproj.CoreCompileInputs.cache
-C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatwayApiTests\obj\Debug\net5.0\PaymentGatwayApiTests.dll
-C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatwayApiTests\obj\Debug\net5.0\ref\PaymentGatwayApiTests.dll
-C:\Users\usman.naru\OneDrive - Sainsbury's Supermarkets Ltd\TCS\My Profile\Project\PaymentGatewayService\PaymentGatwayApiTests\obj\Debug\net5.0\PaymentGatwayApiTests.pdb

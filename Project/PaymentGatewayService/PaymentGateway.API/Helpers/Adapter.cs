@@ -55,22 +55,32 @@ namespace PaymentGateway.API.Helpers
 		/// <returns></returns>
 		public static BankCard MapToBankCard(this MerchantRequest merchant, BankCard card, IStringEncryptor encryptor)
 		{
-			string cardNumber;
+			var mapCard = new BankCard();
 			if (card == null)
-				cardNumber = encryptor.Encrypt(merchant.CardNumber);
+			{
+				mapCard.BankCardId = Guid.NewGuid();
+				mapCard.CardNumber = encryptor.Encrypt(merchant.CardNumber);
+				mapCard.CreatedTimestamp = DateTimeOffset.Now;
+				mapCard.ModifiedTimestamp = DateTimeOffset.Now;
+			}
 			else
-				cardNumber = card.CardNumber;
+			{
+				mapCard.BankCardId = card.BankCardId;
+				mapCard.CardNumber = card.CardNumber;
+				mapCard.CreatedTimestamp = card.CreatedTimestamp;
+				mapCard.ModifiedTimestamp = card.ModifiedTimestamp;
+			}
 
 			return new BankCard
 			{
-				BankCardId = Guid.NewGuid(),
-				CardNumber = cardNumber,
+				BankCardId = mapCard.BankCardId,
+				CardNumber = mapCard.CardNumber,
 				CardHolderName = merchant.CardHolderName,
 				CVV = merchant.CVV,
 				ExpiryYear = merchant.ExpiryYear,
 				ExpiryMonth = merchant.ExpiryMonth,
-				CreatedTimestamp = DateTimeOffset.Now,
-				ModifiedTimestamp = DateTimeOffset.Now
+				CreatedTimestamp = mapCard.CreatedTimestamp,
+				ModifiedTimestamp = mapCard.ModifiedTimestamp
 			};
 		}
 
@@ -132,7 +142,33 @@ namespace PaymentGateway.API.Helpers
 				CreatedTimestamp = transaction.CreatedTimestamp,
 
 			};
+		}
 
+		public static MerchantAuditRequest MapToMerchantAuditRequest(this BankCard card, 
+			Transaction transaction,
+			IStringEncryptor stringEncryptor,
+			Merchant merchant)
+		{
+			return new MerchantAuditRequest()
+			{
+				Merchant = new Merchant
+				{
+					 MerchantName = merchant.MerchantName,
+					 Description = merchant.Description
+				},
+				BankCardId = card.BankCardId,
+				CardHolderName = card.CardHolderName,
+				CardNumber = stringEncryptor.Decrypt(card.CardNumber),
+				CVV = card.CVV,
+				ExpiryMonth = card.ExpiryMonth,
+				ExpiryYear = card.ExpiryYear,
+				BankResponseId = transaction.BankReferenceId,
+				Amount = transaction.Amount,
+				TransactionStatus = transaction.TransactionStatus,
+				ModifiedTimestamp = transaction.ModifiedTimestamp,
+				CreatedTimestamp = transaction.CreatedTimestamp,
+
+			};
 		}
 	}
 }

@@ -76,8 +76,6 @@ C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGateway.API\
 C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGateway.API\bin\Debug\net5.0\ref\PaymentGateway.API.dll
 C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGateway.API\bin\Debug\net5.0\PaymentGateway.API.pdb
 C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGateway.API\bin\Debug\net5.0\Humanizer.dll
-C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGateway.API\bin\Debug\net5.0\System.Net.Http.Formatting.dll
-C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGateway.API\bin\Debug\net5.0\System.Web.Http.dll
 C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGateway.API\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGateway.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGateway.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -93,7 +91,6 @@ C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGateway.API\
 C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGateway.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGateway.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGateway.API\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGateway.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGateway.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGateway.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\myGit\PaymentGatewayService\Project\PaymentGatewayService\PaymentGateway.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -11,7 +11,7 @@ using PaymentGatway.Infrastructure.Repositories.Base;
 
 namespace PaymentGateway.API.Controllers
 {
-	[Route("api/[controller]")]
+	[Route("[controller]")]
 	[ApiController]
 	public class PaymentGatewayApiController : ControllerBase
 	{
@@ -22,7 +22,7 @@ namespace PaymentGateway.API.Controllers
 		private readonly IRepository<Currency> _currencyRepository;
 		private readonly IRepository<Transaction> _transactionRepository;
 		private readonly IClientRequestService _clientRequest;
-		private IStringEncryptor _stringEncryptor;
+		private readonly IStringEncryptor _stringEncryptor;
 		private readonly ILogger<PaymentGatewayApiController> _logger;
 
 		#endregion
@@ -66,10 +66,16 @@ namespace PaymentGateway.API.Controllers
 		{
 			_logger.LogInformation("Validation Successful! Extracting information from database ");
 			var bank = _bankRepository.GetEntity(s => s.BankName == merchantRequest.BankName);
+			if (bank == null)
+				return NotFound($"{nameof(merchantRequest.BankName)} is not registered with PaymentGateway. Please register {nameof(Bank)}.");
 
 			var merchant = _merchantRepository.GetEntity(s => s.MerchantName == merchantRequest.MerchantName);
+			if (merchant == null)
+				return NotFound($"{nameof(merchantRequest.MerchantName)} is not registered with PaymentGateway. Please register {nameof(Merchant)}.");
 
 			var currency = _currencyRepository.GetEntity(s => s.CurrencyCode == merchantRequest.CurrencyCode);
+			if (currency == null)
+				return NotFound($"{nameof(merchantRequest.CurrencyCode)} is not registered with PaymentGateway. Please register {nameof(Currency)}.");
 
 			var card = _bankCardRepository.GetEntity(s =>
 				s.CardHolderName == merchantRequest.CardHolderName &&
@@ -136,7 +142,7 @@ namespace PaymentGateway.API.Controllers
 
 			var lookUpMerchant = _merchantRepository.GetEntity(s => s.MerchantName == merchant.MerchantName);
 			if (lookUpMerchant != null)
-				return Ok();
+				return Ok($"Registration already exist for {nameof(lookUpMerchant.MerchantName)}");
 
 			var merchantDetails = await _merchantRepository.AddAsync(merchant);
 			_logger.LogInformation($"{nameof(Merchant)} added to the database");
@@ -159,7 +165,7 @@ namespace PaymentGateway.API.Controllers
 
 			var lookUpCurrency = _currencyRepository.GetEntity(s => s.CurrencyCode == currency.CurrencyCode);
 			if (lookUpCurrency != null)
-				return Ok();
+				return Ok($"Registration already exist for {nameof(lookUpCurrency.CurrencyCode)}");
 
 			var currencyDetail = await _currencyRepository.AddAsync(currency);
 			_logger.LogInformation($"{nameof(Currency)} added to the database");
@@ -182,12 +188,41 @@ namespace PaymentGateway.API.Controllers
 
 			var lookUpBank = _bankRepository.GetEntity(s => s.BankName == bank.BankName);
 			if (lookUpBank != null)
-				return Ok();
+				return Ok($"Registration already exist for {nameof(lookUpBank.BankName)}");
 
 			var bankDetail = await _bankRepository.AddAsync(bank);
 			_logger.LogInformation($"{nameof(Currency)} added to the database");
 
 			return Ok(bankDetail);
 		}
+
+		/// <summary>
+		/// Find transaction by MerchantId to enable Reconcilation process
+		/// </summary>
+		/// <param name="id"></param>
+		/// <returns></returns>
+		[HttpGet]
+		[Route("MerchantId/{id}")]
+		public async Task<IActionResult> GetMerchantById(Guid id)
+		{
+			_logger.LogInformation($"Checking {nameof(Transaction)} in the database against: {id}");
+
+			var merchant = await _merchantRepository.GetByIdAsync(id);
+			if (merchant is null)
+				return NotFound($"No Record found for {nameof(Merchant)} id: {id}");
+
+			var transaction = _transactionRepository.GetEntity(s => s.MerchantId == merchant.MerchantId);
+			if(transaction is null)
+				return NotFound($"No {nameof(Transaction)} found for {nameof(Merchant)} id: {id}");
+
+			var card = await _bankCardRepository.GetByIdAsync(transaction.BankCardId);
+
+			var response = card.MapToMerchantAuditRequest(transaction, _stringEncryptor, merchant);
+			response.CardNumber = BankCardHelper.MaskCardNumber(response.CardNumber);
+
+			_logger.LogInformation("A match found, displaying the result");
+			return Ok(response);
+		}
+
 	}
 }

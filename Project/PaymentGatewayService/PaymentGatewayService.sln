@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentGateway.API", "PaymentGateway.API\PaymentGateway.API.csproj", "{822C700E-63CE-4989-BDBD-4E5A51302F6D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentGatewayApiTests", "PaymentGatwayApiTests\PaymentGatewayApiTests.csproj", "{694F653E-F927-407E-9669-EA9F7E281DD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentGatewayApiTests", "PaymentGatewayApiTests\PaymentGatewayApiTests.csproj", "{694F653E-F927-407E-9669-EA9F7E281DD2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentGateway.Infrastructure", "PaymentGatway.Infrastructure\PaymentGateway.Infrastructure.csproj", "{00842E23-E838-4558-B0E4-B2D83E03BAC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentGateway.Infrastructure", "PaymentGateway.Infrastructure\PaymentGateway.Infrastructure.csproj", "{00842E23-E838-4558-B0E4-B2D83E03BAC4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentGateway.Core", "PaymentGatway.Core\PaymentGateway.Core.csproj", "{E26D1ECA-464D-47DF-BA67-672B275D94BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentGateway.Core", "PaymentGateway.Core\PaymentGateway.Core.csproj", "{E26D1ECA-464D-47DF-BA67-672B275D94BA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banking.Api", "..\Banking.Api\Banking.Api.csproj", "{E35F83A2-F052-41E2-91A2-5AF1CE00D1B5}"
 EndProject
