@@ -66,7 +66,7 @@ namespace PaymentGatway.Core.Validations
 			{
 				message += "Please provide valid expiry year. ";
 			}
-			else
+			else if (expiryYearsLeft == 0)
 			{
 				var expiryMonthsleft = bankTransaction.ExpiryMonth - currentMonth;
 				if (expiryMonthsleft < 0)
